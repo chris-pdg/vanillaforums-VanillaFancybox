@@ -51,9 +51,10 @@ class VanillaFancyboxPlugin extends Gdn_Plugin
 		if (!InArrayI($Sender->ControllerName, $DisplayOn)) return;
 		
 		// Attach the Plugin's JavaScript & CSS to the site
-		$Sender->AddJsFile($this->GetResource('js/jquery.fancybox.pack.js', FALSE, FALSE));
-		$Sender->AddJsFile($this->GetResource('js/jquery.easing.pack.js', FALSE, FALSE));
-		$Sender->AddCSSFile($this->GetResource('style/jquery.fancybox.css', FALSE, FALSE));
+		// add css to head	
+		$Sender->Head->AddCss('plugins/VanillaFancybox/style/jquery.fancybox.css');		
+		// add js file
+		$Sender->AddJsFile('jquery.fancybox.js', 'plugins/VanillaFancybox');
 		
 		// The jQuery configs for the Fancybox plugin
 		$FancyboxJQuerySource = '
