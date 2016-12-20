@@ -6,7 +6,7 @@
 $PluginInfo['VanillaFancybox'] = array(
 	'Name'			=> 'jQuery Fancybox',
 	'Description'	=> 'Adds the jQuery Fancybox plugin to display images in a nice way.',
-	'Version'		=> '1.1',
+	'Version'		=> '1.2',
 	'Author'		=> 'Oliver Raduner',
 	'AuthorEmail'	=> 'vanilla@raduner.ch',
 	'AuthorUrl'		=> 'http://raduner.ch/',
@@ -27,8 +27,8 @@ $PluginInfo['VanillaFancybox'] = array(
  *
  * Creates an on-site "popup" for diaplying images, using the jQuery Fancybox library
  *
- * @version 1.1
- * @date 06-NOV-2011
+ * @version 1.2
+ * @date 20-DEC-2016
  * @author Oliver Raduner <vanilla@raduner.ch>
  * 
  * @link http://fancybox.net/ jQuery Fancybox Plugin
